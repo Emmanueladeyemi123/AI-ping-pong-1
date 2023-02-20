@@ -5,3 +5,16 @@ margin-top: 50px;
 .heading{
     width:100%;
 }
+.instructions_button{
+    float: right;
+    border:3px solid white;
+}
+.copy_right_footer{
+    background-color:grey;
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    color:white;
+    text-align: center;
+    line-height:3;
+}

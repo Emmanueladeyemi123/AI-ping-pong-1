@@ -19,7 +19,7 @@
     <center>
         <div class="btn btn-primary heading">
             <h2> AI ping pong game</h2>
-            <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Instructions</button>
+            <button class="btn btn-info instructions_button" data-toggle="modal" data-target="#myModal">Instructions</button>
         </div>
         <button class="btn btn-primary" id="start" onclick="startGame()">Play</button>
         <br><br>
@@ -27,6 +27,9 @@
         <br><br>
         <div id="canvas"></div>
         <div id="game_console"></div>
+        <br><br>
+        <button class="btn btn-info" onclick="restart()">Restart</button>
+        <h4 class="copy_right_footer">Made by Emmanuel</h4>
     </center>
 
     <script src="main.js"></script>
